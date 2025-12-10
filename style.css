@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 25px
+}
+
+.navbar{
+    background-color: blueviolet;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10PX;
+}
+
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    border:2px solid;
+    width: 40%;
+    float: right;
+    padding: 10px;
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 25px;
+}
+
+@media screen and (max-width:600px){
+aside, section, article{
+width: 100px;
+}
+}
